@@ -51,8 +51,8 @@ div{
  .half-one{
      box-shadow: 10px 10px 40px gray;
      width: 40%;
-     margin-left: 4%;
-     margin-right: 5%;
+     margin-left: 3%;
+     margin-right: 3%;
      padding-left: 35px;
      padding-right: 35px;
      border-radius: 10px;
@@ -60,23 +60,50 @@ div{
  }
  .Footer{
      width: 100%;
-     color: black;
      text-align: center;
-     box-shadow: 5px 5px 40px black;
+     box-shadow: 0px 0px 60px black;
  }
+ .likes{
+    width: 95%;
+    box-shadow: 0px 0px 50px black;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 75px;
+}
+.one{
+    width: 33.33%;
+    float: left;
+}
+.two{
+    width: 33.33%;
+    margin: auto;
+}
+.three{
+    width: 33.33%;
+    float: right;
+    margin-top: 0%;
+    padding: auto;
+}
 h2{
     font-size: 30px;
 }
-#id{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue cyan);
-    border-image-slice: 1;
-}
+
 
 .Pro-level{
     display: flex;
     padding-top: 150px;
     padding-left: 60px;
+    padding-right: 30px;
+    margin-right: 0%;
+    margin-bottom: 2px;
+}
+.Pro-levely{
+    display: flex;
+    box-shadow: 15px 15px 30px gray;
+    border-radius: 15px;
+    border-width: 50%;
+    padding-top: 5px;
+    padding-left: 185px;
     padding-right: 30px;
     margin-right: 0%;
     margin-bottom: 2px;
@@ -99,6 +126,9 @@ h2{
     padding: 20%
     background-image linear-gradient(orange tomato);
 }
-footer p{
+footer{
     text-align: center;
+    width: 100%;
+    box-shadow: black;
+    display: block;
 }
