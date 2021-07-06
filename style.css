@@ -1,0 +1,85 @@
+h1{
+    color: black;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.half-on{
+    padding-left: 60px;
+}
+body{
+    margin: 0%;
+    margin-right: 0%;
+}
+.top-banner{
+    background-image: url(image.jpg/png\ lokta.png);
+    background-repeat: no-repeat;
+}
+span{
+    color: coral;
+}
+div{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font: 100; 
+}
+.half image{
+    width: 300%;
+    padding-top: 10%;
+}
+.half{
+     width: 100%;
+     padding-left: 0%;
+     margin-top: 5%;
+     image-rendering: pixelated;
+ }
+ .half-one{
+     box-shadow: 10px 10px 40px gray;
+     width: 40%;
+     margin-left: 4%;
+     margin-right: 5%;
+     padding-left: 35px;
+     padding-right: 35px;
+     border-radius: 10px;
+
+ }
+h2{
+    font-size: 30px;
+}
+#id{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+
+.Pro-level{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 30px;
+    margin-right: 0%;
+    padding-top: 60px;
+    margin-bottom: 2px;
+}
+.right-banner{
+    background-image: url(image.jpg/half\ circle\ .png);
+    margin-right: 0%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.half-talk{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    background-color: yellowgreen;
+    padding: 10px 40px;
+    border-radius: 10px;
+    padding: 20%
+    background-image linear-gradient(orange tomato);
+}
+footer p{
+    text-align: center;
+}
