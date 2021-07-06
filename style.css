@@ -2,6 +2,7 @@ h1{
     color: black;
     font-size: 50px;
     font-display: 5px;
+    padding-top: 0;
     font-weight: bold;font-family: 'Times New Roman', Times, serif;
 }
 h2{
@@ -30,9 +31,16 @@ div{
 .half image{
     width: 300%;
     padding-top: 10%;
+    margin-top: 0%;
+}
+.Person{
+    width: 50%;
+    image-resolution: 25%;
+    margin-left: 0%;
 }
 .Group{
     margin-top: 0%;
+    image-resolution: 10%;
 }
 .half{
      width: 100%;
@@ -49,6 +57,12 @@ div{
      padding-right: 35px;
      border-radius: 10px;
 
+ }
+ .Footer{
+     width: 100%;
+     color: black;
+     text-align: center;
+     box-shadow: 5px 5px 40px black;
  }
 h2{
     font-size: 30px;
